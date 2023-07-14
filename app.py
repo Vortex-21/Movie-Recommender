@@ -66,6 +66,7 @@ if st.button('Recommend'):
         st.write(f"{movies.iloc[recommendations[3][0]]['title']}")
 
     with col5:
+        
         st.image(f"{posters[4]}")
         st.write(f"{movies.iloc[recommendations[4][0]]['title']}")
 
